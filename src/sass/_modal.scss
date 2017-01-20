@@ -1,0 +1,65 @@
+.image-modal {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 99;
+  background-color: transparentize(white, 0.1);
+  text-align: center;
+}
+
+.close-box {
+  width: 2rem;
+  height: 2rem;
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  cursor: pointer;
+
+  span {
+    position: absolute;
+    top: 1rem;
+    display: block;
+    width: 2rem;
+    height: 0.1rem;
+    background: white;
+    &:nth-child(1) {
+      transform: rotate(-45deg);
+    }
+    &:nth-child(2) {
+      transform: rotate(45deg);
+    }
+  }
+}
+.image-modal-inner {
+  background: $main;
+  color: white;
+  display: inline-block;
+  position: relative;
+  padding: 60px 50px;
+  text-align: left;
+
+  .image-info {
+    padding: 20px 20px 0;
+    text-align: left;
+    h3 {
+      font-weight: lighter;
+    }
+    p {
+      font-size: 0.8rem;
+    }
+  }
+
+  .image-modal-links {
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 2px;
+    font-size: 0.5rem;
+    margin-top: 40px;
+
+    a {
+      margin-right: 20px;
+    }
+  }
+}

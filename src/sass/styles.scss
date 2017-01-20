@@ -1,0 +1,27 @@
+$main: rgb(15,17,41);
+
+body {
+  margin: 0;
+  padding: 0;
+  background: $main;
+  font-family: 'arial';
+}
+
+.container {
+  max-width: 1024px;
+  margin: 0 auto;
+  background-color: white;
+  min-height: 100vh;
+  position: relative;
+}
+
+p {
+  margin: 0;
+}
+
+a {
+  color: inherit;
+}
+
+@import 'gallery';
+@import 'modal';
