@@ -65,9 +65,36 @@ a {
       font-weight: bolder; }
     .gallery-item .gallery-overlay:hover {
       opacity: 1; }
-  .gallery-item .thumbnail img {
+  .gallery-item .thumbnail {
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
     width: 100%;
     height: 100%; }
+
+.gallery-item:nth-child(1) .thumbnail {
+  background-image: url("http://leidencollectionexhibition.com/wp-content/uploads/2017/01/HBr-100-Hendrick-ter-Brugghen-Allegory-of-Faith-1.png"); }
+
+.gallery-item:nth-child(2) .thumbnail {
+  background-image: url("http://leidencollectionexhibition.com/wp-content/uploads/2017/01/JL-105-Jan-Lievens-Self-Portrait.jpg"); }
+
+.gallery-item:nth-child(3) .thumbnail {
+  background-image: url("http://leidencollectionexhibition.com/wp-content/uploads/2017/01/GD-108-Gerrit-Dou-Cat-Crouching-on-the-Ledge.jpg"); }
+
+.gallery-item:nth-child(4) .thumbnail {
+  background-image: url("http://leidencollectionexhibition.com/wp-content/uploads/2017/01/JL-102-Jan-Lievens-The-Card-Players.jpg"); }
+
+.gallery-item:nth-child(5) .thumbnail {
+  background-image: url("http://leidencollectionexhibition.com/wp-content/uploads/2017/01/RR-104-Rembrandt-van-Rijn-Young-Girl-in-a-Gold-trimmed-Cloak.jpg"); }
+
+.gallery-item:nth-child(6) .thumbnail {
+  background-image: url("http://leidencollectionexhibition.com/wp-content/uploads/2017/01/FH-100-Frans-Hals-Portrait-of-Samuel-Ampzing-1.png"); }
+
+.gallery-item:nth-child(7) .thumbnail {
+  background-image: url("http://leidencollectionexhibition.com/wp-content/uploads/2017/01/JS-116-Jan-Steen-The-Prayer-Before-the-Meal-1.png"); }
+
+.gallery-item:nth-child(8) .thumbnail {
+  background-image: url("http://leidencollectionexhibition.com/wp-content/uploads/2017/01/FM-122-Frans_van_Mieris-A_Traveler_at_Rest-1.png"); }
 
 .image-modal {
   display: none;
