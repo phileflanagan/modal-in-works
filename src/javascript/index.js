@@ -1,15 +1,15 @@
-const galleryItems = document.querySelectorAll('.gallery-item');
-const closeBox = document.querySelector('.close-box');
+var galleryItems = document.querySelectorAll('.gallery-item');
+var closeBox = document.querySelector('.close-box');
 
-const imageModal = document.querySelector('.image-modal');
-const imageModalImage = imageModal.querySelector('img');
-const imageModalTitle = imageModal.querySelector('h3');
-const imageModalDesc = imageModal.querySelector('.desc');
-const imageModalStyle = imageModal.querySelector('.desc-style');
-const imageModalCatLink = imageModal.querySelector('.link-cat');
-const imageModalBioLink = imageModal.querySelector('.link-bio');
+var imageModal = document.querySelector('.image-modal');
+var imageModalImage = imageModal.querySelector('img');
+var imageModalTitle = imageModal.querySelector('h3');
+var imageModalDesc = imageModal.querySelector('.desc');
+var imageModalStyle = imageModal.querySelector('.desc-style');
+var imageModalCatLink = imageModal.querySelector('.link-cat');
+var imageModalBioLink = imageModal.querySelector('.link-bio');
 
-const images = [
+var images = [
   {
     image: "http://leidencollectionexhibition.com/wp-content/uploads/2017/01/HBr-100-Hendrick-ter-Brugghen-Allegory-of-Faith-1.png",
     name: "Hendrick ter Brugghen (1588-1629)",
@@ -74,12 +74,10 @@ const images = [
     catalogue: "#",
     bio: "#"
   }
-
-]
-
+];
 
 function openModal(e) {
-  const curr = images[this.index];
+  var curr = images[this.index];
   imageModalImage.src = curr.image;
   imageModalTitle.innerHTML = curr.name;
   imageModalDesc.innerHTML = curr.desc;
@@ -93,7 +91,7 @@ function hideModal(e) {
   imageModal.style.display = 'none';
 }
 
-galleryItems.forEach((galleryItem, index) => {
+galleryItems.forEach(function (galleryItem, index) {
   galleryItem.index = index;
   galleryItem.addEventListener('click', openModal);
 });
