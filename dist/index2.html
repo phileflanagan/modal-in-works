@@ -1,0 +1,399 @@
+<div class="image-modal">
+  <div class="image-modal-inner">
+
+    <div class="close-box">
+      <span></span>
+      <span></span>
+    </div>
+
+    <img src="http://leidencollectionexhibition.com/wp-content/uploads/2017/01/HBr-100-Hendrick-ter-Brugghen-Allegory-of-Faith-1.png" alt="" />
+
+    <div class="image-info">
+      <h3>Hendrick ter Brugghen (1588-1629)</h3>
+      <p class="desc">Allegory of Faith, ca 162?</p>
+      <p class="desc-style">Oil on canvas</p>
+      <div class="image-modal-links">
+        <a href="#" class="link-cat">See Catalogue Entry</a>
+        <a href="#" class="link-bio">See Artist's Biography</a>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<div class="gallery-wrapper">
+
+   <div class="gallery-item">
+     <div class="gallery-overlay">
+       <div class="info">
+         <p class="title">Brugghen,</p>
+         <p class="subtitle">Allegory of Faith</p>
+         <p class="artid">(HBr-100)</p>
+       </div>
+       <a href="#">See Larger Image</a>
+     </div>
+     <div class="thumbnail"></div>
+   </div>
+
+   <div class="gallery-item">
+     <div class="gallery-overlay">
+       <div class="info">
+         <p class="title">Lievens,</p>
+         <p class="subtitle">Self-Portrait</p>
+         <p class="artid">(JL-105)</p>
+       </div>
+       <a href="#">See Larger Image</a>
+     </div>
+     <div class="thumbnail"></div>
+   </div>
+
+   <div class="gallery-item">
+     <div class="gallery-overlay">
+       <div class="info">
+         <p class="title">Dou,</p>
+         <p class="subtitle">Cat Crouching</p>
+         <p class="artid">(GD-108)</p>
+       </div>
+       <a href="#">See Larger Image</a>
+     </div>
+     <div class="thumbnail"></div>
+   </div>
+
+   <div class="gallery-item">
+     <div class="gallery-overlay">
+       <div class="info">
+         <p class="title">Lievens,</p>
+         <p class="subtitle">The Card Players</p>
+         <p class="artid">(JL-102)</p>
+       </div>
+       <a href="#">See Larger Image</a>
+     </div>
+     <div class="thumbnail"></div>
+   </div>
+
+   <div class="gallery-item">
+     <div class="gallery-overlay">
+       <div class="info">
+         <p class="title">Rembrandt,</p>
+         <p class="subtitle">Young Girl</p>
+         <p class="artid">()</p>
+       </div>
+       <a href="#">See Larger Image</a>
+     </div>
+     <div class="thumbnail"></div>
+   </div>
+
+   <div class="gallery-item">
+     <div class="gallery-overlay">
+       <div class="info">
+         <p class="title">Hals,</p>
+         <p class="subtitle">Portrait of Amazing</p>
+         <p class="artid">(FH-100)</p>
+       </div>
+       <a href="#">See Larger Image</a>
+     </div>
+     <div class="thumbnail"></div>
+   </div>
+
+   <div class="gallery-item">
+     <div class="gallery-overlay">
+       <div class="info">
+         <p class="title">Steen,</p>
+         <p class="subtitle">Prayer Before the Meal</p>
+         <p class="artid">(JS-116)</p>
+       </div>
+       <a href="#">See Larger Image</a>
+     </div>
+     <div class="thumbnail"></div>
+   </div>
+
+   <div class="gallery-item">
+     <div class="gallery-overlay">
+       <div class="info">
+         <p class="title">Frans van Mieris,</p>
+         <p class="subtitle">Traveler at Rest</p>
+         <p class="artid">(FM-122)</p>
+       </div>
+       <a href="#">See Larger Image</a>
+     </div>
+     <div class="thumbnail"></div>
+   </div>
+
+</div>
+
+<style type="text/css">
+  .gallery-wrapper p,
+  .image-modal p {
+    margin: 0;
+    padding: 0;
+  }
+
+  .gallery-wrapper {
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .gallery-item {
+    display: inline-block;
+    margin: 0.3rem;
+    width: 192px;
+    height: 240px;
+    background-color: #5f697a;
+    position: relative;
+  }
+
+  .gallery-item .gallery-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    -webkit-transition: all 200ms ease-in-out;
+    transition: all 200ms ease-in-out;
+    background-color: rgba(15, 17, 41, 0.9);
+    text-align: left;
+    font-size: 0.8rem;
+  }
+
+  .gallery-item .gallery-overlay .info {
+    position: absolute;
+    top: 33%;
+    left: 10%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    color: white;
+  }
+
+  .gallery-item .gallery-overlay .info p {
+    margin: 0;
+  }
+
+  .gallery-item .gallery-overlay a {
+    position: absolute;
+    top: 67%;
+    left: 10%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    color: white;
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-size: 0.5rem;
+    font-weight: bolder;
+  }
+
+  .gallery-item .gallery-overlay:hover {
+    opacity: 1;
+  }
+
+  .gallery-item .thumbnail {
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+  }
+
+  .image-modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background-color: rgba(255, 255, 255, 0.9);
+    text-align: center;
+  }
+
+  .close-box {
+    width: 2rem;
+    height: 2rem;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    cursor: pointer;
+  }
+  .close-box span {
+    position: absolute;
+    top: 1rem;
+    display: block;
+    width: 2rem;
+    height: 0.15rem;
+    background: white;
+  }
+  .close-box span:nth-child(1) {
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+  }
+  .close-box span:nth-child(2) {
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+
+  .image-modal-inner {
+    background: #0f1129;
+    color: white;
+    display: inline-block;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 60px 50px;
+    text-align: left;
+  }
+
+  .image-modal-inner .image-info {
+    padding: 20px 20px 0;
+    text-align: left;
+  }
+
+  .image-modal-inner .image-info h3 {
+    font-size: 1rem;
+    font-weight: lighter;
+  }
+  .image-modal-inner .image-info p {
+    font-size: 0.8rem;
+  }
+  .image-modal-inner .image-modal-links {
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 2px;
+    font-size: 0.5rem;
+    margin-top: 40px;
+  }
+  .image-modal-inner .image-modal-links a {
+    margin-right: 20px;
+  }
+
+  .gallery-item:nth-child(1) .thumbnail {
+     background-image: url("http://leidencollectionexhibition.com/wp-content/uploads/2017/01/HBr-100-Hendrick-ter-Brugghen-Allegory-of-Faith-1.png");
+  }
+
+  .gallery-item:nth-child(2) .thumbnail {
+     background-image: url("http://leidencollectionexhibition.com/wp-content/uploads/2017/01/JL-105-Jan-Lievens-Self-Portrait.jpg");
+  }
+
+  .gallery-item:nth-child(3) .thumbnail {
+     background-image: url("http://leidencollectionexhibition.com/wp-content/uploads/2017/01/GD-108-Gerrit-Dou-Cat-Crouching-on-the-Ledge.jpg");
+  }
+
+  .gallery-item:nth-child(4) .thumbnail {
+     background-image: url("http://leidencollectionexhibition.com/wp-content/uploads/2017/01/JL-102-Jan-Lievens-The-Card-Players.jpg");
+  }
+
+  .gallery-item:nth-child(5) .thumbnail {
+     background-image: url("http://leidencollectionexhibition.com/wp-content/uploads/2017/01/RR-104-Rembrandt-van-Rijn-Young-Girl-in-a-Gold-trimmed-Cloak.jpg");
+  }
+
+  .gallery-item:nth-child(6) .thumbnail {
+     background-image: url("http://leidencollectionexhibition.com/wp-content/uploads/2017/01/FH-100-Frans-Hals-Portrait-of-Samuel-Ampzing-1.png");
+  }
+
+  .gallery-item:nth-child(7) .thumbnail {
+     background-image: url("http://leidencollectionexhibition.com/wp-content/uploads/2017/01/JS-116-Jan-Steen-The-Prayer-Before-the-Meal-1.png");
+  }
+
+  .gallery-item:nth-child(8) .thumbnail {
+     background-image: url("http://leidencollectionexhibition.com/wp-content/uploads/2017/01/FM-122-Frans_van_Mieris-A_Traveler_at_Rest-1.png");
+  }
+</style>
+
+<script type="text/javascript">
+document.addEventListener("DOMContentLoaded", function() {
+  var galleryItems = document.querySelectorAll('.gallery-item');
+  var closeBox = document.querySelector('.close-box');
+
+  var imageModal = document.querySelector('.image-modal');
+  var imageModalImage = imageModal.querySelector('img');
+  var imageModalTitle = imageModal.querySelector('h3');
+  var imageModalDesc = imageModal.querySelector('.desc');
+  var imageModalStyle = imageModal.querySelector('.desc-style');
+  var imageModalCatLink = imageModal.querySelector('.link-cat');
+  var imageModalBioLink = imageModal.querySelector('.link-bio');
+
+  var images = [{
+    image: "http://leidencollectionexhibition.com/wp-content/uploads/2017/01/HBr-100-Hendrick-ter-Brugghen-Allegory-of-Faith-1.png",
+    name: "Hendrick ter Brugghen (1588-1629)",
+    desc: "Allegory of Fath, ca. 162?",
+    style: "Oil on canvas",
+    catalogue: "#",
+    bio: "#"
+  }, {
+    image: "http://leidencollectionexhibition.com/wp-content/uploads/2017/01/JL-105-Jan-Lievens-Self-Portrait.jpg",
+    name: "Jan Lievens (1607-1674)",
+    desc: "Self-Portrait",
+    style: "Oil on panel",
+    catalogue: "#",
+    bio: "#"
+  }, {
+    image: "http://leidencollectionexhibition.com/wp-content/uploads/2017/01/GD-108-Gerrit-Dou-Cat-Crouching-on-the-Ledge.jpg",
+    name: "Gerrit Dou (1613-1674)",
+    desc: "Cat crouching on the Ledge of an Artist's Atelier, 1657",
+    style: "Oil on panel",
+    catalogue: "#",
+    bio: "#"
+  }, {
+    image: "http://leidencollectionexhibition.com/wp-content/uploads/2017/01/JL-102-Jan-Lievens-The-Card-Players.jpg",
+    name: "Jan Lievens (1607-1674)",
+    desc: "Card Players, ca. 1925",
+    style: "Oil on canvas",
+    catalogue: "#",
+    bio: "#"
+  }, {
+    image: "http://leidencollectionexhibition.com/wp-content/uploads/2017/01/RR-104-Rembrandt-van-Rijn-Young-Girl-in-a-Gold-trimmed-Cloak.jpg",
+    name: "Rembrandt van Rinj (1606-1669)",
+    desc: "Young Girl in a Gold-Trimmed Cloak, 1632",
+    style: "Oil on panel, oval",
+    catalogue: "#",
+    bio: "#"
+  }, {
+    image: "http://leidencollectionexhibition.com/wp-content/uploads/2017/01/FH-100-Frans-Hals-Portrait-of-Samuel-Ampzing-1.png",
+    name: "Frans Hals (1576-1666)",
+    desc: "Portrait of Samuel Ampzing, ca. 1630",
+    style: "Oil on copper",
+    catalogue: "#",
+    bio: "#"
+  }, {
+    image: "http://leidencollectionexhibition.com/wp-content/uploads/2017/01/JS-116-Jan-Steen-The-Prayer-Before-the-Meal-1.png",
+    name: "Jan Steen (1685-1750)",
+    desc: "The Prayer Before the Meal, 1660",
+    style: "Oil on oak panel",
+    catalogue: "#",
+    bio: "#"
+  }, {
+    image: "http://leidencollectionexhibition.com/wp-content/uploads/2017/01/FM-122-Frans_van_Mieris-A_Traveler_at_Rest-1.png",
+    name: "Frans van Mieris (1566-1625)",
+    desc: "A Traveler at Rest, ca. 1657",
+    style: "Oil on copper",
+    catalogue: "#",
+    bio: "#"
+  }];
+
+  function openModal(e) {
+    var curr = images[this.index];
+    imageModalImage.src = curr.image;
+    imageModalTitle.innerHTML = curr.name;
+    imageModalDesc.innerHTML = curr.desc;
+    imageModalStyle.innerHTML = curr.style;
+    imageModalCatLink.href = curr.catalogue;
+    imageModalBioLink.href = curr.bio;
+    imageModal.style.display = 'block';
+  }
+
+  function hideModal(e) {
+    imageModal.style.display = 'none';
+  }
+
+  galleryItems.forEach(function (galleryItem, index) {
+    galleryItem.index = index;
+    galleryItem.addEventListener('click', openModal);
+  });
+
+  closeBox.addEventListener('click', hideModal);
+});
+</script>
