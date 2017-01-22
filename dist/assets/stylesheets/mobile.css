@@ -15,6 +15,11 @@
   top: 0;
 }
 
+.et_pb_section_0 .et_pb_image_0 {
+  margin-top: 75px !important;
+  max-width: 67%;
+}
+
 .et_pb_section_1.et_pb_section {
   overflow: hidden;
   width: 100vw;
@@ -83,8 +88,30 @@ text-align: left;
 .et_pb_section_0.et_pb_section {
   padding: 10px 0 240px !important;
   height: 0px;
-  background-position: center;
+ }
+
+
+
+
+.et_pb_section_1 .et_pb_row_1 .et_pb_text_0 {
 }
+
+.wpsisac-slick-carousal button.slick-next,
+.wpsisac-slick-carousal button.slick-next:hover,
+.wpsisac-slick-carousal button.slick-next:active {
+  background: transparent url(http://leidencollectionexhibition.com/wp-content/uploads/2017/01/Vector-Smart-Object-copy-4.png) center center no-repeat !important;
+}
+.wpsisac-slick-carousal button.slick-prev,
+.wpsisac-slick-carousal button.slick-prev:hover,
+.wpsisac-slick-carousal button.slick-prev:active{
+  background: transparent url(http://leidencollectionexhibition.com/wp-content/uploads/2017/01/Vector-Smart-Object-copy-4.png) center center no-repeat !important;
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+
 
 
 }
