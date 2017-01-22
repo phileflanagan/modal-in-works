@@ -20,12 +20,24 @@
   width: 100vw;
 }
 
-.mobile_menu_bar:before {
+.et_header_style_left #et-top-navigation {
+  padding-top: 0px;
+}
+.mobile_menu_bar {
+  margin: 1rem;
+}
+
+.closed .mobile_menu_bar:before {
   font-size: 60px
 }
 
+.open .mobile_menu_bar:before {
+  font-size: 60px;
+  content: "\d7";
+}
+
 .logo_container a{
-  border: 5px solid red;
+  display: none;
 }
 
 
