@@ -25,19 +25,31 @@
 }
 .mobile_menu_bar {
   margin: 1rem;
+  z-index: 999;
 }
-
 .closed .mobile_menu_bar:before {
-  font-size: 60px
+display: block;
+width: 60px;
+  font-size: 60px;
 }
 
-.open .mobile_menu_bar:before {
-  font-size: 60px;
+.opened .mobile_menu_bar:before {
+display: block;
+text-align: center;
+margin-top: -14px;
+  font-size: 70px;
   content: "\d7";
 }
 
 .logo_container a{
   display: none;
+}
+
+#mobile_menu {
+  position: absolute;
+  top: 100px;
+  height: 100vh;
+  width: 100%;
 }
 
 
