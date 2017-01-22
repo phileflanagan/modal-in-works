@@ -1,0 +1,69 @@
+.lec-form input[type=text],
+.lec-form input[type=password]{
+  display: block;
+ border: none;
+ padding: 7px;
+margin: 5px 0;
+height: 35px;
+ width: 100% !important;
+}
+
+.lec-form label{
+ padding: 10px 0px 0px  !important;
+  display: block;
+  font-size: 1rem;
+  font-family: "Calluna Regular", sans-serif;
+}
+
+.form-button-gray {
+ margin: 2rem 0 1rem;
+  border: none;
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+ font-size: 1rem;
+  text-transform: uppercase;
+}
+
+.lec-remember-me {
+  display: inline-bl  ock;
+  margin-left: 50px;
+}
+
+.error {
+  color: #b7353e;
+  padding: 1rem 1rem 0;
+  background-color: #ff8691;
+  border: 2px solid #ff4e5c;
+}
+
+.updated {
+   padding: 1rem 1rem 0;
+   color: #799870;
+   background-color: #c5dfb1;
+   border: 2px solid #799870;
+}
+
+.updated ul,
+.error ul {
+ margin: 0;
+padding-botom: 0;
+}
+
+#main-footer {
+  position: relative;
+  margin-top: -70px;
+  background-color: transparent;
+}
+
+#main-footer:before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 70px;
+  background-color: transparent;
+  background-repeat: none;
+  background-size: cover;
+  background-image: url('http://leidencollectionexhibition.com/wp-content/uploads/2017/01/footer-cropped.png');
+}
