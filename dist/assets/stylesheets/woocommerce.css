@@ -1,0 +1,28 @@
+<style>
+.woocommerce .phoen-myaccount-content {
+ color: #6d6d71;
+ font-size: 1rem;
+}
+
+.woocommerce .phoen-myaccount-content a {
+ color: #171830;
+ text-decoration: underline;
+}
+
+.woocommerce .phoen-myaccount-content strong {
+ color: #171830;
+ font-weight: bolder;
+}
+
+.woocommerce .phoen-myaccount-menu .myaccount-menu li {
+ border: none;
+ padding: 0;
+ margin-bottom: 1rem;
+}
+.woocommerce .phoen-myaccount-menu .myaccount-menu li a{
+ font-family: "Montserrat", sans-serif;
+ font-weight: 900;
+ color: #171830;
+ text-transform: uppercase;
+}
+</style>
