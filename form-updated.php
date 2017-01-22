@@ -20,7 +20,6 @@
             <label for="last_name"><?php echo SwpmUtils::_('Last Name') ?></label>
             <input type="text" id="last_name" value="<?php echo esc_attr($last_name); ?>" size="50" name="last_name" />
 
-            <label for="membership_level"><?php echo SwpmUtils::_('Membership Level') ?></label>
                     <?php
                     echo $membership_level_alias;//Show the level name in the form.
                     //Add the input fields for the level data.
