@@ -47,8 +47,8 @@ height: 35px;
 
 .updated ul,
 .error ul {
- margin: 0;
-padding-botom: 0;
+  margin: 0;
+  padding-botom: 0;
 }
 
 #main-footer {
