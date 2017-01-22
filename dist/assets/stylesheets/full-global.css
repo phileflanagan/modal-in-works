@@ -1,0 +1,448 @@
+wpsisac-slick.wpsisac-prodesign-28 .wpsisac-slide-wrap {
+    background: transparent;
+}
+.wpsisac-slick.wpsisac-prodesig
+
+.et-cart-info { display:none;    }
+
+.phoen_custom_account ul li a {
+    color: #0f1129!important;
+    background-color: #ffffff!important;
+    letter-spacing: 0.1em;
+border: 0px solid #ccc;
+}
+
+.phoen_custom_account ul li a {
+   border: 0px solid #ccc;
+    border-bottom: none;
+}
+.wpsisac-slick.wpsisac-prodesign-28 .wpsisac-slide-wrap:before {
+    background: rgba(15, 17, 41, .8);
+    position: absolute;
+    content: "";
+    display: block;
+    width: 50%;
+    height: 100%;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+    top: 0;
+}
+.wpsisac-slick.wpsisac-prodesign-28 .wpsisac-slide-wrap:after {
+    background: rgba(15, 17, 41, .8);
+    position: absolute;
+    content: "";
+    display: block;
+    width: 50%;
+    height: 100%;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    -webkit-transform: translateX(200%);
+    transform: translateX(200%);
+    top: 0;
+}
+.wpsisac-slick.wpsisac-prodesign-28 .wpsisac-slide-wrap:before {
+    background:rgba(15, 17, 41, .8);
+    position: absolute;
+    content: "";
+    display: block;
+    width: 50%;
+    height: 100%;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+    top: 0;
+}
+#top-menu .menu-item-has-children > a:first-child:after, #et-secondary-nav .menu-item-has-children > a:first-child:after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-family: "ETmodules";
+    font-size: 0px;
+    font-weight: 0;
+    content: "3";
+}
+.bottom-nav {
+    letter-spacing: 1px;
+    font-family: montserrat;
+}
+#top-menu .menu-item-has-children > a:first-child, #et-secondary-nav .menu-item-has-children > a:first-child {
+    padding-right: 0px;
+}
+.Request___Login {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 2864px;
+  height: 2536px;
+  z-index: 134;
+}
+.For_press_inquiries__please_request_access_below_ {
+  font-size: 18px;
+  font-family: "Calluna";
+  color: rgb(255, 255, 255);
+  line-height: 1.66;
+  text-align: left;
+  -moz-transform: matrix( 1.10697771855745,0,0,1.10697771855745,0,0);
+  -webkit-transform: matrix( 1.10697771855745,0,0,1.10697771855745,0,0);
+  -ms-transform: matrix( 1.10697771855745,0,0,1.10697771855745,0,0);
+  position: absolute;
+  left: 1632.337px;
+  top: 293.96px;
+  width: 363.165px;
+  height: 18.465px;
+  z-index: 133;
+}
+.LEIDEN_EXHIBITION_COLLECTION {
+  font-size: 22px;
+  font-family: "Montserrat";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  line-height: 0.682;
+  text-align: left;
+  position: absolute;
+  left: 1609.938px;
+  top: 197.498px;
+  z-index: 132;
+}
+.Shape_1_copy_3 {
+  background-color: rgb(9, 13, 67);
+  position: absolute;
+  left: 1602px;
+  top: 238px;
+  width: 807px;
+  height: 1px;
+  z-index: 131;
+}
+.Request {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 2864px;
+  height: 2536px;
+  z-index: 120;
+}
+.REQUEST_ACCESS {
+  font-size: 18px;
+  font-family: "Montserrat";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  line-height: 0.833;
+  text-align: left;
+  position: absolute;
+  left: 1608.844px;
+  top: 409.375px;
+  z-index: 119;
+}
+.First_name_ {
+  font-size: 16.568px;
+  font-family: "Calluna";
+  color: rgb(186, 186, 186);
+  line-height: 1.072;
+  text-align: left;
+  position: absolute;
+  left: 1611.296px;
+  top: 473.148px;
+  width: 83px;
+  height: 13px;
+  z-index: 118;
+}
+.Layer_1572 {
+  background-image: url("Layer 1572.png");
+  position: absolute;
+  left: 1612px;
+  top: 481px;
+  width: 312px;
+  height: 30px;
+  z-index: 117;
+}
+.Last_name_ {
+  font-size: 16.568px;
+  font-family: "Calluna";
+  color: rgb(186, 186, 186);
+  line-height: 1.072;
+  text-align: left;
+  position: absolute;
+  left: 1611.164px;
+  top: 552.148px;
+  width: 80px;
+  height: 13px;
+  z-index: 116;
+}
+.Layer_1572_copy {
+  background-image: url("Layer 1572 copy.png");
+  position: absolute;
+  left: 1612px;
+  top: 560px;
+  width: 312px;
+  height: 30px;
+  z-index: 115;
+}
+.Company {
+  font-size: 16.568px;
+  font-family: "Calluna";
+  color: rgb(186, 186, 186);
+  line-height: 1.072;
+  text-align: left;
+  position: absolute;
+  left: 1610.938px;
+  top: 631.013px;
+  width: 69px;
+  height: 17px;
+  z-index: 114;
+}
+.Layer_1572 {
+  background-image: url("Layer 1572.png");
+  position: absolute;
+  left: 1612px;
+  top: 639px;
+  width: 312px;
+  height: 30px;
+  z-index: 113;
+}
+.Email_ {
+  font-size: 16.568px;
+  font-family: "Calluna";
+  color: rgb(186, 186, 186);
+  line-height: 1.072;
+  text-align: left;
+  position: absolute;
+  left: 1611.296px;
+  top: 710.634px;
+  width: 48px;
+  height: 14px;
+  z-index: 112;
+}
+.Layer_1572_copy {
+  background-image: url("Layer 1572 copy.png");
+  position: absolute;
+  left: 1612px;
+  top: 718px;
+  width: 312px;
+  height: 30px;
+  z-index: 111;
+}
+.REQUEST {
+  font-size: 14px;
+  font-family: "Montserrat";
+  color: rgb(23, 24, 48);
+  font-weight: bold;
+  line-height: 1.071;
+  text-align: left;
+  position: absolute;
+  left: 1627.937px;
+  top: 817.753px;
+  z-index: 110;
+}
+.Layer_1572_copy_2 {
+  background-image: url("Layer 1572 copy 2.png");
+  position: absolute;
+  left: 1612px;
+  top: 796px;
+  width: 108px;
+  height: 30px;
+  z-index: 109;
+}
+.Login {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 2864px;
+  height: 2536px;
+  z-index: 107;
+}
+.LOGIN {
+  font-size: 18px;
+  font-family: "Montserrat";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  line-height: 0.833;
+  text-align: left;
+  position: absolute;
+  left: 2050.844px;
+  top: 400.003px;
+  z-index: 106;
+}
+.Username_or_email_address_ {
+  font-size: 16.568px;
+  font-family: "Calluna";
+  color: rgb(186, 186, 186);
+  line-height: 1.072;
+  text-align: left;
+  position: absolute;
+  left: 2053.164px;
+  top: 479.634px;
+  width: 199px;
+  height: 14px;
+  z-index: 105;
+}
+.Layer_1572 {
+  background-image: url("Layer 1572.png");
+  position: absolute;
+  left: 2055px;
+  top: 487px;
+  width: 312px;
+  height: 30px;
+  z-index: 104;
+}
+.Password_ {
+  font-size: 16.568px;
+  font-family: "Calluna";
+  color: rgb(186, 186, 186);
+  line-height: 1.072;
+  text-align: left;
+  position: absolute;
+  left: 2053.296px;
+  top: 558.634px;
+  width: 74px;
+  height: 14px;
+  z-index: 103;
+}
+.Layer_1572_copy {
+  background-image: url("Layer 1572 copy.png");
+  position: absolute;
+  left: 2055px;
+  top: 566px;
+  width: 312px;
+  height: 30px;
+  z-index: 102;
+}
+.LOGIN {
+  font-size: 14px;
+  font-family: "Montserrat";
+  color: rgb(23, 24, 48);
+  font-weight: bold;
+  line-height: 1.071;
+  text-align: left;
+  position: absolute;
+  left: 2070.937px;
+  top: 651.003px;
+  z-index: 101;
+}
+.Layer_1572_copy_2 {
+  background-image: url("Layer 1572 copy 2.png");
+  position: absolute;
+  left: 2055px;
+  top: 644px;
+  width: 84px;
+  height: 30px;
+  z-index: 100;
+}
+.Remember_Me {
+  font-size: 16.568px;
+  font-family: "Calluna";
+  color: rgb(186, 186, 186);
+  line-height: 1.072;
+  text-align: left;
+  position: absolute;
+  left: 2206.296px;
+  top: 667.634px;
+  width: 104px;
+  height: 14px;
+  z-index: 99;
+}
+.Layer_1572_copy_3 {
+  background-image: url("Layer 1572 copy 3.png");
+  position: absolute;
+  left: 2188px;
+  top: 654px;
+  width: 10px;
+  height: 10px;
+  z-index: 98;
+}
+.Lost_your_password_ {
+  font-size: 16.568px;
+  font-family: "Calluna";
+  color: rgb(255, 255, 255);
+  text-decoration: underline;
+  line-height: 1.072;
+  text-align: left;
+  position: absolute;
+  left: 2053px;
+  top: 713.634px;
+  width: 145px;
+  height: 18px;
+  z-index: 97;
+}
+.Layer_1445_copy {
+  background-image: url("Layer 1445 copy.png");
+  opacity: 0.969;
+  position: absolute;
+  left: 1490px;
+  top: 114px;
+  width: 1027px;
+  height: 2415px;
+  z-index: 95;
+}
+
+.lec-form input[type=text],
+.lec-form input[type=password]{
+  display: block;
+ border: none;
+ padding: 7px;
+margin: 5px 0;
+height: 35px;
+ width: 100% !important;
+}
+
+.lec-form label{
+ padding: 10px 0px 0px  !important;
+  display: block;
+  font-size: 1rem;
+  font-family: "Calluna Regular", sans-serif;
+}
+
+.form-button-gray {
+ margin: 2rem 0 1rem;
+  border: none;
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+ font-size: 1rem;
+  text-transform: uppercase;
+}
+
+.lec-remember-me {
+  display: inline-block;
+  margin-left: 50px;
+}
+
+.error {
+  color: #b7353e;
+  padding: 1rem 1rem 0;
+  background-color: #ff8691;
+  border: 2px solid #ff4e5c;
+}
+
+.updated {
+   padding: 1rem 1rem 0;
+   color: #799870;
+   background-color: #c5dfb1;
+   border: 2px solid #799870;
+}
+
+.updated ul,
+.error ul {
+ margin: 0;
+padding-botom: 0;
+}
+
+#main-footer {
+  position: relative;
+  margin-top: -70px;
+  background-color: transparent;
+}
+
+#main-footer:before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 70px;
+  background-color: transparent;
+  background-repeat: none;
+  background-size: cover;
+  background-image: url('http://leidencollectionexhibition.com/wp-content/uploads/2017/01/footer-cropped.png');
+}

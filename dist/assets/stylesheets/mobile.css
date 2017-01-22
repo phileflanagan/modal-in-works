@@ -1,0 +1,34 @@
+<style>
+@media (max-width: 500px) {
+#page-container,
+#et-main-area {
+  width: 100vw;
+  padding: 0 !important;
+ margin: 0 !important;
+}
+
+.et_boxed_layout #page-container, .et_boxed_layout.et_non_fixed_nav.et_transparent_nav #page-container #top-header, .et_non_fixed_nav.et_transparent_nav.et_boxed_layout #page-container #main-header, .et_fixed_nav.et_boxed_layout #page-container #top-header, .et_fixed_nav.et_boxed_layout #page-container #main-header, .et_boxed_layout #page-container .container, .et_boxed_layout #page-container .et_pb_row, .et_boxed_layout.et_pb_pagebuilder_layout.single.et_full_width_page #page-container .et_pb_row, .et_boxed_layout.et_pb_pagebuilder_layout.single.et_full_width_portfolio_page #page-container .et_pb_row, .et_boxed_layout.et_pb_pagebuilder_layout.single #page-container .et_pb_row {
+  width: 100% !important;
+}
+.et_menu_container{
+   position: absolute;
+  top: 0;
+}
+
+.et_pb_section_1.et_pb_section {
+  overflow: hidden;
+  width: 100vw;
+}
+
+.mobile_menu_bar:before {
+  font-size: 60px
+}
+
+.logo_container a{
+  border: 5px solid red;
+}
+
+
+
+}
+</style>
