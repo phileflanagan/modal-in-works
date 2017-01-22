@@ -1,0 +1,73 @@
+@media (max-width: 500px) {
+  #page-container,
+  #et-main-area {
+   width: 100vw;
+   padding: 0 !important;
+   margin: 0 !important;
+  }
+
+  .et_boxed_layout #page-container, .et_boxed_layout.et_non_fixed_nav.et_transparent_nav #page-container #top-header, .et_non_fixed_nav.et_transparent_nav.et_boxed_layout #page-container #main-header, .et_fixed_nav.et_boxed_layout #page-container #top-header, .et_fixed_nav.et_boxed_layout #page-container #main-header, .et_boxed_layout #page-container .container, .et_boxed_layout #page-container .et_pb_row, .et_boxed_layout.et_pb_pagebuilder_layout.single.et_full_width_page #page-container .et_pb_row, .et_boxed_layout.et_pb_pagebuilder_layout.single.et_full_width_portfolio_page #page-container .et_pb_row, .et_boxed_layout.et_pb_pagebuilder_layout.single #page-container .et_pb_row {
+   width: 100% !important;
+  }
+  .et_menu_container{
+   position: absolute;
+   top: 0;
+  }
+
+  .et_header_style_left #et-top-navigation {
+   padding-top: 0px;
+  }
+  .mobile_menu_bar {
+   margin: 1rem;
+   z-index: 999;
+  }
+  .closed .mobile_menu_bar:before {
+  display: block;
+   font-size: 60px;
+  text-align: right;
+  }
+
+  .opened .mobile_menu_bar:before {
+  display: block;
+  margin-top: -14px;
+  margin-left: -4px;
+   font-size: 70px;
+   content: "\d7";
+  text-align: right;
+  }
+
+  .opened .mobile_menu_bar:after {
+   content: "";
+   width: 70px;
+   height: 63px;
+   position: absolute;
+   top: 0;
+  left: 0;
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-image: url('http://leidencollectionexhibition.com/wp-content/uploads/2017/01/Logoh.png');
+  }
+
+  .opened .mobile_menu_bar {
+   margin: 0;
+   padding: 16px 26px 30px;
+   background-color: #0f1129;
+  }
+
+  .logo_container a{
+   display: none;
+  }
+
+  #mobile_menu {
+   position: absolute;
+   top: 100px;
+   height: 100vh;
+   width: 100%;
+  }
+
+  #et_mobile_nav_menu {
+   width: 100vw;
+  text-align: left;
+  }
+
+}
