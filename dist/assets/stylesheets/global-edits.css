@@ -1,3 +1,26 @@
+.nav li ul {
+  width: 290px;
+  padding: 0 0 20px;
+}
+#top-menu li li {
+  display: block;
+}
+#top-menu li li a{
+ width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 .cap-header-xlarge {
   font-family: "Montserrat", sans-serif;
   font-weight: 900;
@@ -547,13 +570,13 @@ height: 35px;
 
 .error {
   color: #b7353e;
-  padding: 1rem 1rem 0;
+  padding: 1rem 1rem;
   background-color: #ff8691;
   border: 2px solid #ff4e5c;
 }
 
 .updated {
-   padding: 1rem 1rem 0;
+   padding: 1rem 1rem;
    color: #799870;
    background-color: #c5dfb1;
    border: 2px solid #799870;
@@ -562,7 +585,7 @@ height: 35px;
 .updated ul,
 .error ul {
  margin: 0;
-padding-botom: 0;
+padding: 0 0 0 2rem !important;
 }
 
 #main-footer {
