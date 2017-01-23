@@ -11,10 +11,6 @@
 #{$wrap} {
     clear: both;
 }
-#mega-menu-wrap-primary-menu {
-    background: #0f1129;
-
-}
 
 #mega-menu-wrap-primary-menu #mega-menu-primary-menu > li.mega-menu-flyout ul.mega-sub-menu {
     z-index: 999;
@@ -119,18 +115,12 @@ menu-link .mega-description-group .mega-menu-description {
   line-height: 70px;
   display: block;
   width: 100%;
+    background: transparent;
   }
 
 #mega-menu-wrap-primary-menu  .mega-menu-toggle.mega-menu-open .mega-toggle-block-1:before {
   content: '\4d';
 }
-
-#mega-menu-wrap-primary-menu  .mega-menu-toggle.mega-menu-open{
- background: url(http://leidencollectionexhibition.com/wp-content/uploads/2017/01/Logoh.png);
- background-repeat: no-repeat;
- background-position: 2rem center;
-}
-
 
 
 
@@ -156,9 +146,11 @@ menu-link .mega-description-group .mega-menu-description {
     height: 100vh;
 }
 
+
+#mega-menu-wrap-primary-menu #mega-menu-primary-menu > li.mega-menu-item:first-child { margin-top: 0; }
 #mega-menu-wrap-primary-menu #mega-menu-primary-menu > li.mega-menu-item {
     margin: 1rem 2rem;
-
+	background: #0f1129;
 }
 
 #mega-menu-wrap-primary-menu #mega-menu-primary-menu > li.mega-menu-item > a.mega-menu-link {
@@ -175,6 +167,22 @@ menu-link .mega-description-group .mega-menu-description {
 #mega-menu-wrap-primary-menu #mega-menu-primary-menu > li.mega-menu-flyout ul.mega-sub-menu li.mega-menu-item {
   padding: 0 0 0 5%;
 }
+
+
+
+#mega-menu-wrap-primary-menu {
+ background: transparent;
+}
+
+#mega-menu-wrap-primary-menu  .mega-menu-toggle.mega-menu-open {
+ background: url(http://leidencollectionexhibition.com/wp-content/uploads/2017/01/Logoh.png);
+ background-repeat: no-repeat;
+ background-position: 2rem center;
+ background-color: #0f1129;
+}
+
+
+
 
 
 }
